@@ -77,14 +77,15 @@ export const BazarCoastEntry =()=>{
                <main>
                 <div className="section-registration">
                  
-                    <h1> Bazar Amount Entry </h1>
+                    <h1 style={{position:'static',color:'white'}}> Bazar Amount Entry </h1>
                     <br/>
                     <form onSubmit={handleSubmit}>
                    
 
                     <div>
-                      <label htmlFor="date"> Select Date</label>
+                      <label htmlFor="date" className="w1"> Select Date</label>
                       <input type="date" 
+                      className="q1"
                       name="date"
                       placeholder="Enter the Date "
                       id="date"
@@ -96,8 +97,9 @@ export const BazarCoastEntry =()=>{
                       </div>
 
                       <div>
-                      <label htmlFor="personPerson">Shopper Name</label>
+                      <label htmlFor="personPerson" className="w1">Shopper Name</label>
                       <input type="text" 
+                      className="q1"
                       name="bazarPerson"
                       placeholder="EXM:Johnny Sins "
                       id="bazarPerson"
@@ -110,8 +112,9 @@ export const BazarCoastEntry =()=>{
 
 
                       <div>
-                      <label htmlFor="bazarAmount">Bazar Amount</label>
+                      <label htmlFor="bazarAmount" className="w1">Bazar Amount</label>
                       <input type="number" 
+                      className="q1"
                       name="bazarAmount"
                       placeholder="Enter The Bazar Amount"
                       id="bazarAmount"
@@ -124,8 +127,9 @@ export const BazarCoastEntry =()=>{
 
 
                     <div>
-                      <label htmlFor="bazarList">Bazar List</label>
+                      <label htmlFor="bazarList" className="w1">Bazar List</label>
                       <input type="text" 
+                      className="q1"
                       name="bazarList"
                       placeholder="EX. Allu, Begun"
                       id="bazarList"

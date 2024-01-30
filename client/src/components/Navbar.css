@@ -1,6 +1,6 @@
 .container{
     max-width:140rem;
-    padding:4.2rem 2.4rem;
+    /* padding:4.2rem 2.4rem; */
     display: flex;
     justify-content: space-between;
 }
@@ -8,3 +8,47 @@ ul{
     display: flex;
     gap: 3.4rem;
 }
+div{
+    padding: 0px;
+    margin: 0px;
+}
+.container
+{
+    width: 100%; /* Take up 100% of the parent container */
+    max-width: 90%; /* Set a maximum width for larger screens */
+    margin: 0 auto; /* Center the div horizontally */
+    padding: 0px; /* Add some padding */
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box; /* Include padding and border in the total width */
+    background-color: #27374D;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding-top: 0px;
+}
+
+li
+{
+    background-color: #3f617c;
+    width:70px;
+    height:60px;
+    color:#526D82;
+    padding: 10px;
+    padding-top: 10 ;
+    margin: 0px;
+    border: 1px outset white;
+    border-radius: 10px;
+
+}
+.a1
+{
+    color:#ddd;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+}
+li:hover {
+    background-color: #000000; 
+  }

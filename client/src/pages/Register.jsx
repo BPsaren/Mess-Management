@@ -82,11 +82,11 @@ try {
                <main>
                 <div className="section-registration">
                  
-                    <h1>Registration form</h1>
+                    <h1 style={{color:'white',position:'static'}}>Registration form</h1>
                     <br/>
                     <form onSubmit={handleSubmit}>
                       <div>
-                      <label htmlFor="username">  username </label>
+                      <label htmlFor="username" className="r1">  username </label>
                       <input type="text" 
                       name="username"
                       placeholder="enter your username "
@@ -99,7 +99,7 @@ try {
 
 
                       <div>
-                      <label htmlFor="email">email address </label>
+                      <label htmlFor="email" className="r1">email address </label>
                       <input type="email" 
                       name="email"
                       placeholder="enter your email address"
@@ -113,7 +113,7 @@ try {
 
 
                       <div>
-                      <label htmlFor="phone">Phone number </label>
+                      <label htmlFor="phone" className="r1">Phone number </label>
                       <input type="number" 
                       name="phone"
                       placeholder="enter your phone number "
@@ -124,7 +124,7 @@ try {
                       </div>
 
                       <div>
-                      <label htmlFor="password">Password </label>
+                      <label htmlFor="password" className="r1">Password </label>
                       <input type="password" 
                       name="password"
                       placeholder="enter your password "

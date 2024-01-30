@@ -16,10 +16,10 @@ export const Home = () => {
   }, []); // Run only once on component mount
 
   return (
-    <div>
-      <h1>This is my Home page</h1>
-      <p>This is my Mern stack web page.</p>
-    </div>
+    <React.Fragment >
+      <h1 style={{position:'static',color:'white'}}>This is my Home page</h1>
+      <p style={{color:'white'}}>This is my Mern stack web page.</p>
+      </React.Fragment>
   );
 };
 

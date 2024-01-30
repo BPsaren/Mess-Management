@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { toast } from 'react-toastify';
+import './meal-request.css'
 
 
 
@@ -64,15 +65,17 @@ const handleSubmit=async(e)=>{
 };
 
   return(
-        <div>
-        <section>
-               <main>
-                <div className="section-registration">
+        <>
+        <section style={{padding:'0px',margin:'0px'}}>
+               <main style={{padding:'0px',margin:'0px'}}>
+                <div className="section-registration" style={{padding:'0px',margin:'0px'}}>
                  
-                    <h1> Send Meal Request</h1>
-                    <br/>
-                    <form onSubmit={handleSubmit}>
                    
+                    <div id="body">
+                      <div id='container'>
+                    <form onSubmit={handleSubmit}>
+                    <h1 className="brand-title" style={{color:'black'}}> Send Meal Request</h1>
+                    <br/>
 
                     <div>
                       <label htmlFor="date"> Select Date</label>
@@ -143,11 +146,13 @@ const handleSubmit=async(e)=>{
                    <button type="submit">Submit</button>
                       
                    </form>
+                   </div>
+                   </div>
                 </div>
                </main>
               
         </section>
-      </div>
+      </>
         
     );
 }
