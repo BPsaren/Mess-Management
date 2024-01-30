@@ -78,12 +78,12 @@ try {
                <main>
                 <div className="section-registration">
                  
-                    <h1> Log in Now </h1>
+                    <h1 style={{color:'white',position:'static  '}}> Log in Now </h1>
                     <br/>
                     <form onSubmit={handleSubmit}>
                     
                       <div>
-                      <label htmlFor="email"> email address </label>
+                      <label htmlFor="email" style={{color:'white'}}> email address </label>
                       <input type="email" 
                       name="email"
                       placeholder="enter your email address"
@@ -97,7 +97,7 @@ try {
 
 
                       <div>
-                      <label htmlFor="password">Password </label>
+                      <label htmlFor="password" style={{color:'white'}}>Password </label>
                       <input type="password" 
                       name="password"
                       placeholder="enter your password "

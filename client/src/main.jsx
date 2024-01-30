@@ -6,12 +6,13 @@ import { AuthProvider } from './store/auth.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.render(
+  <>
   <React.StrictMode>
     <AuthProvider>
       <App />
       <ToastContainer
-position="top-right"
+position="top-right"                                                  
 autoClose={3000}
 hideProgressBar={false}
 newestOnTop={false}
@@ -25,4 +26,6 @@ bodyClassName="toastBody"
 />
     </AuthProvider>
   </React.StrictMode>
+  </>
+,document.getElementById('root')
 );

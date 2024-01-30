@@ -7,21 +7,21 @@ export const ActiveMonthDetails=()=>{
          <nav>
            <ul>
              <li>
-               <NavLink to="deposits"> Deposit </NavLink>
+               <NavLink to="deposits" className='e1'> Deposit </NavLink>
                </li>
        
              <li>
-             <NavLink to="bazarcoasts"> Bazar Coast </NavLink>
+             <NavLink to="bazarcoasts" className='e1'> Bazar Coast </NavLink>
                </li>
        
        
              <li >
-             <NavLink to="meals"> Meal </NavLink>
+             <NavLink to="meals" className='e1'> Meal </NavLink>
                
                </li>
        
                <li >
-             <NavLink to="mealcharge"> Meal charge </NavLink>
+             <NavLink to="mealcharge" className='e1'> Meal charge </NavLink>
                
                </li>
              
